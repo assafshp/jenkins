@@ -37,7 +37,7 @@ Install New Ubuntu Server
 - Prefered version is ubuntu 16.0.4 lts
 - Make sure to open ports 8080 and 22 to the server
 - Once installtion is complete by the cloud vendor (azure/aws) connect to the server via ssh
-- run: ssh znkadmin@zinkerzci.cloudapp.net (port 22), enter the password
+- run: ssh znkadmin@zinkerzci.westeurope.cloudapp.azure.com (port 22), enter the password
 - Install java, run: sudo add-apt-repository ppa:webupd8team/java
 - Then run: sudo apt update; sudo apt install oracle-java8-installer
 - Check java is installed by running ```javac -version```
@@ -47,6 +47,7 @@ Install New Ubuntu Server
 - Install typescript: npm install -g typescript 
 - Install gulp: npm install -g gulp 
 - Install vncserver: apt-get install vnc4server fluxbox
+- Install build essentials: sudo apt-get install build-essential
 - Start vnc for the first time (generate new password is needed once)
 - First, login as jenkins user, run: sudo su -s /bin/bash jenkins
 - Then run: vncserver and set empty password
