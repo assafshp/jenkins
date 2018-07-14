@@ -1,6 +1,5 @@
 
-[link](https://google.com/){:target="_blank"}
-
+[link](https://google.com/?target=_blank)
 
 Copy Azure VHD (virtual hard drive) between diffrent storage account
 =================
